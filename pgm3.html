@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    
+    <link rel="stylesheet" href="pgm3.css"/>
+    <title>Build a Product Landing Page</title>
+</head>
+<body>
+<header id=header>
+ <div class="label" style="background-color: rgb(216, 133, 25);">
+<img id="header-img" src="data:image/jpeg;base64,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" alt="logo" >
+<h1>Coding Camp</h1>
+</div>
+<nav id="nav-bar">
+    <div class="sub-label" style="background-color: bisque;">
+        <a href="#"class=nav-link >Home</a>
+        <a href="#" class=nav-link>Course</a>
+        <a href="#" class=nav-link>AboutUs</a>
+    </div>
+</nav>
+</header>
+
+<!--label>Demo of video</label-->
+<iframe id="video" src="https://assets.mixkit.co/videos/preview/mixkit-hands-typing-on-a-black-keyboard-on-a-desk-14396-large.mp4" frameborder="0" allowfullscreen></iframe>
+<h5 class="desc">We provide uniquely designed learning experience with Certification program and Intership program in India for engineering Students.</h5>
+<form action="https://www.freecodecamp.com/email-submit" id="form">   
+       <label for="email">Email:</label>
+       <input id ="email" placeholder="Email" required pattern=[a-z][A-z][0-9]@gmail.com>
+    <input id="Submit" type="submit" value="submit">
+<section id="Course">
+
+  <div class="container"></div>
+  <h3>Courses</h3>
+  <table>
+    <tr>
+      <th>Course name</th>
+      <th>Price</th>
+      <th>Duration</th>
+      <th>projects</th>
+      <th>Apply forthe course</th>
+    </tr>
+    <tr>
+      <th>Html & Css</th>
+      <td>Rs 1000</td>
+      <td>1month</td>
+      <td>1 project</td>
+      <th><button>apply</button></th>
+    </tr>
+    <tr>
+      <th>Js</th>
+      <td>Rs 2000</td>
+      <td>15days</td>
+      <td>1 project</td>
+      <th><button>apply</button></th>
+    </tr>
+    <tr>
+      <th>PHP</th>
+      <td>Rs 2000</td>
+      <td>1 month</td>
+      <td>1 project</td>
+      <th><button>apply</button></th>
+    </tr>
+    <tr>
+      <th>Node & React</th>
+      <td>Rs 3000</td>
+      <td>1 month</td>
+      <td >1 project</td>
+      <th><button>apply</button></th>
+    </tr>
+  </table>
+</section>
+</form>
+</body>
+</html>
